@@ -10,7 +10,7 @@ jobs:
     runs-on: window-latest
     steps: 
       - name: Check out code
-         uses: actions/checkout@v1
+         uses: actions/checkout@v2
 
         -name: Setup .Net 5
           uses: actions/setup-dotnet@v3
